@@ -1,0 +1,110 @@
+
+Simple Queries:
+
+List all the employee details
+List all the department details
+List all job details
+List all the locations
+List out first name,last name,salary, commission for all employees
+List out employee_id,last name,department id for all  employees and rename employee id as “ID  of the employee”, last name as “Name of the employee”, department id as  “department  ID”
+List out the employees anuual salary with their names only.
+
+
+Where Conditions:
+
+List the details about “SMITH”
+List out the employees who are working in department 20
+List out the employees who are earning salary between 3000 and 4500
+List out the employees who are working in department 10 or 20
+Find out the employees who are not working in department 10 or 30
+List out the employees whose name starts with “S”
+List out the employees whose name start with “S” and end with “H”
+List out the employees whose name length is 4 and start with “S”
+List out the employees who are working in department 10 and draw the salaries more than 3500
+list out the employees who are not receiving commission.
+
+Order By Clause:
+
+List out the employee id, last name in ascending order based on the employee id.
+List out the employee id, name in descending order based on salary column
+list out the employee details according to their last_name in ascending order and salaries in descending order
+list out the employee details according to their last_name in ascending order and then on department_id in descending order.
+
+
+Group By & Having Clause:
+
+How many employees who are working in different departments wise in the organization
+List out the department wise maximum salary, minimum salary, average salary of the employees
+List out the job wise maximum salary, minimum salary, average salaries of the employees.
+List out the no.of employees joined in every month in ascending order.
+List out the no.of employees for each month and year, in the ascending order based on the year, month.
+List out the department id having atleast four employees.
+How many employees in January month.
+How many employees who are joined in January or September month.
+How many employees who are joined in 1985.
+How many employees joined each month in 1985.
+How many employees who are joined in March 1985.
+Which is the department id, having greater than or equal to 3 employees joined in April 1985.
+
+
+Sub-Queries
+
+Display the employee who got the maximum salary.
+Display the employees who are working in Sales department
+Display the employees who are working as “Clerk”.
+Display the employees who are working in “New York”
+Find out no.of employees working in “Sales” department.
+Update the employees salaries, who are working as Clerk on the basis of 10%.
+Delete the employees who are working in accounting department.
+Display the second highest salary drawing employee details.
+Display the Nth highest salary drawing employee details
+
+
+Sub-Query operators: (ALL,ANY,SOME,EXISTS)
+
+List out the employees who earn more than every employee in department 30.
+List out the employees who earn more than the lowest salary in department 30.
+Find out whose department has not employees.
+Find out which department does not have any employees.
+
+
+Co-Related Sub Queries:
+
+47.Find out the employees who earn greater than the average salary for their department.
+
+Joins
+Simple join
+
+48.List our employees with their department names
+49.Display employees with their designations (jobs)
+50.Display the employees with their department name and regional groups.
+51.How many employees who are working in different departments and display with department name.
+52.How many employees who are working in sales department.
+53.Which is the department having greater than or equal to 5 employees and display the department names in ascending order.
+54.How many jobs in the organization with designations.
+55.How many employees working in “New York”.
+
+Non – Equi Join:
+
+56.Display employee details with salary grades.
+57.List out the no. of employees on grade wise.
+58.Display the employ salary grades and no. of employees between 2000 to 5000 range of salary.
+
+
+Self Join:
+
+59.Display the employee details with their manager names.
+60.Display the employee details who earn more than their managers salaries.
+61.Show the no. of employees working under every manager.
+
+Outer Join:
+
+61.Display employee details with all departments.
+62.Display all employees in sales or operation departments.
+
+
+Set Operators:
+
+63.List out the distinct jobs in Sales and Accounting Departments.
+64.List out the ALL jobs in Sales and Accounting Departments.
+65.List out the common jobs in Research and Accounting Departments in ascending order.
